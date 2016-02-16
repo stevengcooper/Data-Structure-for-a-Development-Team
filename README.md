@@ -6,10 +6,9 @@ The data structure allows a developer to enter a time entry for every task compl
 
 ## Follow your Team's progress from Start to Finish:
   1. Document every step of every Project:
-    * Big projects are processed in steps.
-      * Developers track their hours on every step.
-      * Every task can have multiple sub tasks.
-      * Every Project can have multiple tasks.
+    * Developers track their hours on every step.
+    * Every task can have multiple sub tasks.
+    * Every Project can have multiple tasks.
   2. Track which Teams are working on which elements of the Project
     * Track which Developers are working on which Teams.
     * Teams can have the ability to:
