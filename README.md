@@ -2,7 +2,7 @@
 
 ## Description
 
-The data structure allows a developer to enter a time entry for every task completed on a project, and to document the structure of the developer's grouping as well as the client. The user as well as the development team are allowed to comment on the client, project, and industry they are working on.
+Program allows your Team to document every step toward completion of a project, which makes your Billing department's job easier. You know who is working on what and how much time you can bill the Client for.
 
 ## Follow your Team's progress from Start to Finish:
   1. Document every step of every Project:
