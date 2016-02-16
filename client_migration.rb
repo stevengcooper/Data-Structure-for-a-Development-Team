@@ -6,6 +6,8 @@ class ClientsMigration < ActiveRecord : Migration
       t.integer :industry_id
       t.string :name
       t.integer :user_id
+      t.string :client_info_string
+      t.integer :client_info_integer
     end
   end
 end
