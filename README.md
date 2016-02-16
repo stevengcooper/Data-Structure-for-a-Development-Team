@@ -23,4 +23,4 @@ Program allows your Team to document every step toward completion of a project, 
 
 ## Getting Started:
 
-![id](http://i.imgur.com/hxHRDWU.png)
+![id](http://i.imgur.com/btIBYYP.png)
