@@ -22,3 +22,5 @@ Program allows your Team to document every step toward completion of a project, 
     * You have documentation of the work completed for the billing process.
 
 ## Getting Started:
+
+![id](http://i.imgur.com/q47bgKo.png)
