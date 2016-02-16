@@ -1,6 +1,11 @@
-require './activerecord'
+require 'active_record'
 
-class ClientsMigration < ActiveRecord : Migration
+ActiveRecord::Base.establish_connection(
+  adapter: 'sqlite3',
+  database: 'db.sqlite3'
+)
+
+class ClientsMigration < ActiveRecord::Migration
   def change
     create_table :clients do |t|
       t.integer :industry_id
@@ -11,3 +16,5 @@ class ClientsMigration < ActiveRecord : Migration
     end
   end
 end
+
+ClientsMigration.migrate(:up)

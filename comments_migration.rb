@@ -1,6 +1,12 @@
-require './activerecord'
+require 'active_record'
 
-class CommentsMigration < ActiveRecord : Migration
+ActiveRecord::Base.establish_connection(
+  adapter: 'sqlite3'
+  database: 'db.sqlite3'
+)
+
+
+class CommentsMigration < ActiveRecord::Migration
   def change
     create_table :comments do |t|
       t.integer :client_id
@@ -13,3 +19,5 @@ class CommentsMigration < ActiveRecord : Migration
     end
   end
 end
+
+CommentsMigration.migrate(:up)
